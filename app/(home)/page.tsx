@@ -1,7 +1,7 @@
 "use client";
 import { Card } from "@arco-design/web-react";
 import styles from "./page.module.scss";
-import { IconEmail, IconRight } from "@arco-design/web-react/icon";
+// import { IconEmail, IconRight } from "@arco-design/web-react/icon";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
           <div className={styles.info}>
             <div className={styles.hello}>
               <h1 className={styles.hello_text}>Hi, I&apos;m</h1>
-              <h1 className={styles.hello_text}>Anne Lewis</h1>
+              <h1 className={styles.hello_text}>ursazoo</h1>
             </div>
             <div className={styles.introduction}>
               Lorem ipsum feugiat nibh aliquam pulvinar proin gravida amet
@@ -21,11 +21,11 @@ export default function Home() {
             <div className={styles.actions}>
               <div className={styles.schedule_btn}>
                 <span>Schedule</span>
-                <IconRight style={{ fontSize: 28 }} />
+                {/*<IconRight style={{ fontSize: 28 }} />*/}
               </div>
               <div className={styles.email_btn}>
                 <span>Email</span>
-                <IconEmail style={{ fontSize: 28 }} />
+                {/*<IconEmail style={{ fontSize: 28 }} />*/}
               </div>
             </div>
           </div>
