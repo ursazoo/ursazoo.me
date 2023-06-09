@@ -1,0 +1,18 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.431),
+      rgba(255, 255, 255, 0.431)
+    ),
+    url(../../assets/images/common/background.jpg);
+  background-position: 0 0, center;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  background-color: #161929;
+}
+
+.main {
+  height: 100vh;
+}
